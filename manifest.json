@@ -1,0 +1,21 @@
+{
+    "name": "Address Manager",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A simple address manager extension",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_icon": "icon.png",
+      "default_title": "Address Manager",
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "clipboardWrite",
+      "storage"
+    ]
+  }
+  
